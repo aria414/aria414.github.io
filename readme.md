@@ -1,14 +1,14 @@
 # Project Overview
 
 ## Project Schedule
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
+This schedule will be used to keep track of my progress throughout the week and align with their expectations.  
 
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
+I am **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description | Incomplete
-|Day 1| Wireframes / Priority Matrix / Timeline | Incomplete
+|Day 1| Project Description | Complete
+|Day 1| Wireframes / Priority Matrix / Timeline | Pending
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Day 4| MVP & Bug Fixes | Incomplete
 |Day 5| Final Touches | Incomplete
@@ -17,30 +17,32 @@ You are **responsible** for scheduling time with your squad to seek approval for
 ## Project Description
 Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
 
+
+
 ## Google Sheet
-Include link to your google sheet here.  Here is the sample [Joe had used in class](https://docs.google.com/spreadsheets/d/15PmioBi2dQEkewpqI7MDkDpvcVF0Trw8vmarAQbwoHk/edit#gid=0) 
+Google sheet made on Friday [Sheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vT5-0fzI-wdRZl-mQooaMVS4vY_24hiappFOW8Y0I8ZXTffC5Z0646pZVmGR-G-PVcsbyBDNZyDVnXG/pubhtml) 
 
 ## Portfolio I want to Emulate
 Search and compare at least 3 profile web sites.  Record your findings in the table below and include some aspect of the site that you would like to incorporate into your own site.
 
 Link To Site  | One Thing I'd Like To Incorporate | 
 | ------------- | ------------- |
-| [denisechandler.com](http://www.denisechandler.com/)%7C landing page animation
-|[jkeohan.com](http://jkeohan.com/) | mouseover on a project triggers animations |
-| [mattfarley.ca](http://mattfarley.ca/) |  layout of the projects
+| [Template found on Pintrest](https://i.pinimg.com/originals/67/be/82/67be820520e8ace919241649d270d698.png)|Inspiration for About Me layout
+|[investigatormarketing.com](https://investigatormarketing.com/products/private-investigator-websites/) | Mobile layout with alternating colors for each section |
+| [onmyojiguide.com](https://onmyojiguide.com/) |  Simple slide-down for hamburger menu
 ---
 
 ## Wireframes
-Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
-- [Mobile](https://i.imgur.com/P3iBEZf.jpg)
-- [Desktop](https://i.imgur.com/xpOWo0E.jpg)
+Dropbox folder containing mockup design
+- [Mobile](https://www.dropbox.com/sh/pqbg9h5ng5kpzkd/AACudEeb34F5QCFy9roR6ERAa?dl=0)
+- [Desktop](https://www.dropbox.com/sh/qeibuv019og6cod/AADetl35LGaHN42f0W5rJqxSa?dl=0
+)
 
 Wireframing Resources:
-- [Mockflow](https://mockflow.com/app/#Wireframe)
-- [Figma](https://www.figma.com/)
+- Photoshop
 
 ## Time/Priority Matrix 
-[Link](https://res.cloudinary.com/jkeohan/image/upload/a_270/v1591621734/project1_matrix_ocy5gc_h1kg0m.jpg)
+[Link](https://www.dropbox.com/sh/sg9rasy9uhciwmi/AABozktiP9YCmul7ySTRGqwja?dl=0)
 
 Include a full list of features that have been prioritized based on the `Time and Priority` Matix.  This involves drawing a a square.  In the middle of the square, on the x axis draw a line.  The most left part of the line should start with 0hrs and the end of the line should include 2hrs.  This line will be used to estimate how much time any one feature will take to complete. 
 
@@ -69,36 +71,56 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | H | 1hr | hr |
-| Project Previews | H | 3hr | hr |
-| Regular Nav | H | 1hr | hr |  
-| Adding Form | H | 1.5hr|  hr | 
-| Other sections and flex| M | 3hr | hr|
-| Working with API | H | 3hrs|  hr | 
+| Hamburger | M | 1hr | hr |
+| Regular Nav | M | 1hr | hr |  
+| Adding Form | H | 1hr|  hr | 
+| Pull data and display | H | 4hrs|  hr | 
 | Responsive | H | 3hr | hr | hr |
-| Social Media Icons | L | 1hr |  hr |
-| Total | H | 15.5hrs| hrs |
+| Total | H | 10hrs| hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Project Hover | L | 3hr | -hr | hr |
-| Banner letters wiggle | L | 1hr | hr |
-| Interactive Banner | M | 4hr | hr |
-| Materialize | H | 4hr | -hr | hr |
-| Bootstrap | H | 4hr | hr |
-| Make own icon | L | 4hr | hr |
-| Total | H | 20hrs| hrs |
+| Add images | H | 1.5hr | -hr | hr |
+| Bootstrap | L | 2hr | hr |
+| customize font-awesome icons | L | 4hr | hr |
+| Total | H | 7.5hrs| hrs |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
+jQuery
+
  
 ## Code Snippet
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
+Use this section to include a brief code snippet of functionality that you are proud of and a brief description  
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+
+// Add the eventListener
+// on a click event done to button -  do the clickHandler function
+// clickHandler doens't have () because i don't want to invoke it immediately. I want to pass it in to be called.
+// $button.on("click", clickHandler);
+//add the eventListener with an arrow function instead of passing in clickHandler
+$button.on("click", (event) => {
+
+    if ($('li').length > 0){
+        $('ul').empty()
+    } else {
+    // Our array of data
+    const myArray = [1,2,3,4,5,6]
+
+    // store the UL in a variable
+    const $ul = $("ul")
+
+    //empty the ul
+    $ul.empty()
+
+    // Loop over the array and add the lis
+    myArray.forEach((item) => {
+        const $li = $("<li>")
+        $li.text(item)
+        $ul.append($li)
+    })
+    }
+})
 ```
 ## Issues and Resolutions
  Use this section to list of all major issues encountered and their resolution.
