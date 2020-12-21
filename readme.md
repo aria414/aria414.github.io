@@ -78,18 +78,21 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | M | 1hr | hr |
+| Hamburger | M | 2hr | hr |
 | Regular Nav | M | 1hr | hr |  
-| Adding Form | H | 1hr|  hr | 
-| Pull data and display | H | 4hrs|  hr | 
+| Make a Form | H | 1hr|  hr | 
+| Connect Form | H | 3hr|  hr | 
+| Pull and display data for projects | H | 7hrs|  hr | 
+| Enter data for credits| H | 2hrs|  hr | 
+| Pull/display data for credits| H | 5hrs|  hr | 
 | Responsive | H | 3hr | hr | hr |
-| Total | H | 10hrs| hrs |
+| Total | H | 24hrs| hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
 | Add images | H | 1.5hr | -hr | hr |
-| Bootstrap | L | 2hr | hr |
+| Bootstrap component | L | 2hr | hr |
 | customize font-awesome icons | L | 4hr | hr |
 | Total | H | 7.5hrs| hrs |
 
