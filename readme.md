@@ -78,15 +78,15 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | M | 2hr | hr |
+| Hamburger | M | 1hr | hr |
 | Regular Nav | M | 1hr | hr |  
 | Make a Form | H | 1hr|  hr | 
 | Connect Form | H | 3hr|  hr | 
 | Pull and display data for projects | H | 7hrs|  hr | 
 | Enter data for credits| H | 2hrs|  hr | 
 | Pull/display data for credits| H | 5hrs|  hr | 
-| Responsive | H | 3hr | hr | hr |
-| Total | H | 24hrs| hrs |
+| Responsive | H | 5hr | hr | hr |
+| Total | H | 25hrs| hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
