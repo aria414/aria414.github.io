@@ -1,6 +1,9 @@
 /* *******************************************
 ****** PROJECT SETUP
 ******************************************* */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap');
+
 
 /* VARIABLES */
 :root {
@@ -39,7 +42,10 @@ body {
 /* *******************************************
 ****** PROJECT STYLES
 ******************************************* */
-
+/* .container-fluid {
+  padding: 0;
+  margin: 0;
+} */
 header {
   border: 1px solid;
   padding: 15px;
@@ -52,14 +58,22 @@ main {
   grid-template-rows: repeat(5, 1fr);
   margin: 0 auto;
 }
-/* ------------------ GENERAL ------------------ */
+
+/* *******************************************
+****** GENERAL STYLES
+******************************************* */
 .fab{
-  font-size: 40px;
+  font-size: 2.5em;
   justify-content: space-between;
 }
-
+.fab.fa-linkedin,
+.fab.fa-github-square {
+  color:#0477B5;
+  padding:5px;
+}
 h1 {
-  font-size: 3em;
+  font-size: 3em;  
+  font-family: 'Nanum Myeongjo', serif;
 }
 h2 {
   font-size: 2.5em;
@@ -68,6 +82,15 @@ h2 {
 
 h3 {
   font-size: 2em;
+}
+
+
+.slate-text {
+  color: #5c7b91;
+  font-size: 2em;
+  font-family: 'Nunito Sans', sans-serif;
+  text-align: center;
+  line-height: 1.5;
 }
 
 footer {
@@ -87,7 +110,10 @@ footer div {
   display: flex;
   justify-content: space-around;
 }
-/* ------------------ about page content layout ------------------ */
+
+/* *******************************************
+****** ABOUT ME PAGE 
+******************************************* */
 
 .experience {
   /* border: 1px solid red; */
@@ -96,23 +122,13 @@ footer div {
   grid-template-rows: 1fr 3fr;
 }
 
-/* .wid,
-.exps article:nth-child(1),
-.exps article:nth-child(2),
-.exps article:nth-child(3) {
-  border: 1px solid blue;
-} */
-
-.wid, .exps article {
-  padding: 30px;
-}
 .wid h2 {
   font-size: 4em;
   margin: 10px 0 10px 0;
 }
 
 .exps {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
 }
@@ -120,17 +136,23 @@ footer div {
   background-color: white;
 }
 
+/* ----------- BC | E | GA headers ----------- */
 .exps h2 {
   height:100px;
   padding: 10px 0 10px 0;
   color:white;
   font-size: 5em;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
 }
+
+/* ----------- 2014 - 2020 years ----------- */
 .exps span {
   font-size: .5em;
   margin-left: 15%;
   position: relative;
   bottom: 10px;
+  font-weight: 400;
 }
 
 #college {
@@ -143,20 +165,31 @@ footer div {
   background-color: #FA4543;
 }
 
+.largedesc{
+  font-size: 2em;
+  line-height: 1.6;
+  font-family: 'Nunito Sans', sans-serif;
+  padding: 30px;
+}
+.largedesc span {
+  color:#ca1212;
+}
+
 .profile {
-  border: 2px solid darkorchid;
+  /* border: 2px solid darkorchid; */
   grid-row: 1 / 2;
   padding: 20px;
   background-color: white;
   text-align:center;
 }
-
-.largedesc{
-  font-size: 2em;
-  line-height: 1.6;
+.profile .largedesc{
+  padding: 0;
 }
-.largedesc span {
-  color:#ca1212;
+
+.profile h2 {
+  font-size: 3em;
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 700;
 }
 /* ---------------------- MOBILE MENU ---------------------- */
 
@@ -170,8 +203,8 @@ footer div {
 }
 
 .navbar-toggler-icon {
-  width: 2em;
-  height: 2em;
+  width: 3em;
+  height: 3em;
 }
 
 /* ---------------------- DESKTOP MENU ---------------------- */
