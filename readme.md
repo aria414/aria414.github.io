@@ -93,7 +93,8 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Add images | H | 1.5hr | -hr | hr |
+| Add images | H | 1.5hr | -hr |
+| Choose fonts | L | 1hr | 1hr |
 | Bootstrap component | L | 2hr | hr |
 | customize font-awesome icons | L | 4hr | hr |
 | Total | H | 7.5hrs| hrs |
