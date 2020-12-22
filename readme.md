@@ -8,8 +8,8 @@ I am **responsible** for scheduling time with your squad to seek approval for ea
 |  Day | Deliverable | Status
 |---|---| ---|
 |Day 1| Project Description | Complete
-|Day 1| Wireframes / Priority Matrix / Timeline | Pending
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Day 1| Wireframes / Priority Matrix / Timeline | Complete
+|Day 3| Core Application Structure (HTML, CSS, etc.) | Pending
 |Day 4| MVP & Bug Fixes | Incomplete
 |Day 5| Final Touches | Incomplete
 |Day 6| Present | Incomplete
@@ -78,15 +78,17 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | M | 1hr | hr |
-| Regular Nav | M | 1hr | hr |  
+| Hamburger | M | 1hr | 2hrs |
+| Regular Nav | M | 1hr | 1hr |  
+| Create Mobile Layout | M | 3hr | 4hrs for 1 page | 
+| Create Desktop Layout | M | 3hr | hr | 
 | Make a Form | H | 1hr|  hr | 
 | Connect Form | H | 3hr|  hr | 
 | Pull and display data for projects | H | 7hrs|  hr | 
 | Enter data for credits| H | 2hrs|  hr | 
 | Pull/display data for credits| H | 5hrs|  hr | 
 | Responsive | H | 5hr | hr | hr |
-| Total | H | 25hrs| hrs |
+| Total | H | 34hrs| hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
