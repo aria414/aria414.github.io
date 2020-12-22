@@ -33,8 +33,159 @@ h6 {
 
 body {
   font-family: var(--text);
+  background-color: #E7E9EF;
 }
 
 /* *******************************************
 ****** PROJECT STYLES
 ******************************************* */
+
+header {
+  border: 1px solid;
+  padding: 15px;
+  height: 57px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, 1fr);
+  margin: 0 auto;
+}
+/* ------------------ GENERAL ------------------ */
+.fab{
+  font-size: 40px;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+footer {
+  background-color: white;
+  position: fixed;
+  z-index: 1030;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  padding: 15px;
+  border-top: 1px solid;
+}
+
+footer div {
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+/* ------------------ about page content layout ------------------ */
+
+.experience {
+  /* border: 1px solid red; */
+  grid-row: 2 / 6;
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+}
+
+/* .wid,
+.exps article:nth-child(1),
+.exps article:nth-child(2),
+.exps article:nth-child(3) {
+  border: 1px solid blue;
+} */
+
+.wid, .exps article {
+  padding: 30px;
+}
+.wid h2 {
+  font-size: 4em;
+  margin: 10px 0 10px 0;
+}
+
+.exps {
+  border: 1px solid green;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.exps article {
+  background-color: white;
+}
+
+.exps h2 {
+  height:100px;
+  padding: 10px 0 10px 0;
+  color:white;
+  font-size: 5em;
+}
+.exps span {
+  font-size: .5em;
+  margin-left: 15%;
+  position: relative;
+  bottom: 10px;
+}
+
+#college {
+  background-color:maroon;
+}
+#work {
+  background-color: #045EAA;
+}
+#boot {
+  background-color: #FA4543;
+}
+
+.profile {
+  border: 2px solid darkorchid;
+  grid-row: 1 / 2;
+  padding: 20px;
+  background-color: white;
+  text-align:center;
+}
+
+.largedesc{
+  font-size: 2em;
+  line-height: 1.6;
+}
+.largedesc span {
+  color:#ca1212;
+}
+/* ---------------------- MOBILE MENU ---------------------- */
+
+.fixed-top {
+  /* display: none; */
+  border-bottom: 1px solid gray;
+  margin-bottom: 20px;
+}
+.bg-light {
+  background-color:white!important;
+}
+
+.navbar-toggler-icon {
+  width: 2em;
+  height: 2em;
+}
+
+/* ---------------------- DESKTOP MENU ---------------------- */
+nav {
+  font-size: 26px;
+  justify-content: flex-end;
+}
+
+.menu {
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: space-between;
+  display:none;
+}
+.menu ul {
+  display: flex;
+}

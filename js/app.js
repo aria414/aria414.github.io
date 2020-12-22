@@ -27,7 +27,35 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1Rg_VD_Okxh90ARUonKDDmRD-5uNZ
         }
     })
     console.log( "my beautiful array: " , projects)
+
+    //Create a div and append to body. Then dump data inside div
+    const $div = $("<div>")
+    const $body = $("body")
+    const $ul = $("<ul>")
+    $body.append($div)
+    $div.append($ul)
+
+    projects.forEach( (item) => {
+        const $li = $("<li>")
+        const $name = item.name
+        const $desc = item.description
+        const $img = item.img
+        const $live = item.live
+        const $git = item.github
+
+        $li.text(` ${$name} | ${$desc} | ${$img} | ${$live} | ${$git}`)
+      //  appended after h1
+      // $ul.append($li)
+    })
+
 } );
+
+
+
+
+
+
+
 
 ////////////////////////////////////////////
 //Pull data from blog from Headless CMS
