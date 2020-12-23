@@ -80,10 +80,10 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | --- | :---: |  :---: | :---: | 
 | Hamburger | M | 1hr | 2hrs |
 | Regular Nav | M | 1hr | 1hr |  
-| Create Mobile Layout | M | 8hr | 6hrs for 1 page | 
+| Create Mobile Layout | M | 8hr | 6hrs -about me, 4hrs project, 1hr contact | 
 | Create Desktop Layout | M | 8hr | hr | 
-| Make a Form | H | 1hr|  hr | 
-| Connect Form | H | 3hr|  hr | 
+| Make a Form | H | 1hr|  .5hr | 
+| Connect Form | H | 3hr|  .5hr | 
 | Pull and display data for projects | H | 7hrs|  hr | 
 | Enter data for credits| H | 2hrs|  hr | 
 | Pull/display data for credits| H | 5hrs|  hr | 
