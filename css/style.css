@@ -262,12 +262,13 @@ footer div {
 .icon-section .fas {
   font-size: 5em;
 }
-.fas.fa-phone {
-  color:#ca1212;
+.fa-phone,
+.fa-envelope,
+.fa-comment-dots,
+.fa-map-marker-alt {
+  color: #00a08b;
 }
-.fas.fa-envelope {
-  color:rgb(41, 105, 41);
-}
+
 /* *******************************************
 ****** MOBILE MENU
 ******************************************* */
