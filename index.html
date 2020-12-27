@@ -45,10 +45,9 @@
       <nav class="menu">
         <h1>about me</h1>
         <ul>
-          <li>home</li>
-          <li>projects</li>
-          <li>contact</li>
-          <li>credit</li>
+          <a href="index.html"><li class="slate-text activelink">home</li></a>
+          <a href="project.html"><li class="slate-text">projects</li></a>
+          <a href="contact.html"><li class="slate-text">contact</li></a>
         </ul>
       </nav>  
       <div class="fixed-top">
@@ -69,7 +68,7 @@
     </header>
 
     <div class="container-fluid">
-      <main>
+      <main class="about">
         <section class="profile">
           <img src="https://oddletters.com/files/2013/06/cat-typing.jpg" alt="Cat profile">
           <h2>Anny Ng</h2>
@@ -90,19 +89,30 @@
 
           <div class="exps">
             <article>
-              <h2 id="college">BC <span>2014</span> </h2>
-              
-              <p class="largedesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique unde voluptatem temporibus aliquid asperiores, omnis quo Molestias, ullam.</p>
+              <div id="college">
+                <img src="./images/bc-logo.jpg" alt="Brooklyn College Logo">
+                <h2>BC</h2>
+                <h3>2014</h3>
+              </div>
+              <p class="largedesc">Undergraduate from Brooklyn College with a Computer Science Degree. Specified in Multi-Media Computing</p>
             </article>
             <article>
-              <h2 id="work">E <span>2014 - 2020</span></h2>
-              <p class="largedesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique unde voluptatem temporibus aliquid asperiores, omnis quo Molestias, ullam.</p>
+              <div id="work">
+                <img src="./images/ecom-logo.jpg" alt="E-Commerce">
+                <h2>E</h2>
+                <h3>2014 - 2020</h3>
+              </div>
+              <p class="largedesc">Web content manager at an E-Commerce company. Specialized in using integrated system and excel to enter product data in bulk.</p>
             </article>
             <article>
-              <h2 id="boot">GA <span>2020 - 2021</span></h2>
-              <p class="largedesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique unde voluptatem temporibus aliquid asperiores, omnis quo Molestias, ullam.</p>
+              <div id="boot">
+                <img src="./images/ga-logo.jpg" alt="General Assembly Logo">
+                <h2 >GA</h2>
+                <h3>2020 - 2021</h3>
+              </div>
+              <p class="largedesc">Software Engineering Immersive student. On the road to become a fullstack developer.</p>
             </article>
-            <article>
+            
           </div>
         </section>
 

@@ -1,3 +1,34 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@aria414 
+aria414
+/
+seir-portfolio
+1
+00
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+seir-portfolio/css/style.css
+@aria414
+aria414 contact with formspree v1
+Latest commit 50ef04a 4 days ago
+ History
+ 1 contributor
+388 lines (341 sloc)  6.68 KB
+  
 /* *******************************************
 ****** PROJECT SETUP
 ******************************************* */
@@ -38,17 +69,21 @@ body {
   font-family: var(--text);
   background-color: #E7E9EF;
 }
-.bgwhte{
-  background-color: white;
-  height: 870px;
-  margin-top: -5px;
-}
 
 /* *******************************************
 ****** PROJECT STYLES
 ******************************************* */
+/* .container-fluid {
+  padding: 0;
+  margin: 0;
+} */
+header {
+  border: 1px solid;
+  padding: 15px;
+  height: 57px;
+}
 
-.about {
+main {
   /* display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(5, 1fr); */
@@ -81,20 +116,15 @@ h3 {
   font-size: 1em;
 }
 
-header a:hover {
-  text-decoration: none;
-}
+
 .slate-text {
-  color: #334f63;
+  color: #5c7b91;
   font-size: 1em;
-  font-family: 'Nanum Myeongjo', serif;
+  font-family: 'Nunito Sans', sans-serif;
   text-align: center;
   line-height: 1.5;
 }
 
-.activelink {
-  color: #ca1212;
-}
 footer {
   background-color: white;
   position: fixed;
@@ -138,7 +168,25 @@ footer div {
   background-color: white;
 }
 
-/* -------------- EXPERIENCES  ------------- */
+/* ----------- BC | E | GA headers ----------- */
+.exps h2 {
+  height:100px;
+  padding: 15px 0 10px 0;
+  color:white;
+  font-size: 3.5em;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+}
+
+/* ----------- 2014 - 2020 years ----------- */
+.exps span {
+  font-size: .5em;
+  margin-left: 5%;
+  position: relative;
+  bottom: 5px;
+  font-weight: 400;
+}
+
 #college {
   background-color:maroon;
 }
@@ -148,35 +196,9 @@ footer div {
 #boot {
   background-color: #FA4543;
 }
-#college img, #work img, #boot img {
-  display: none;
-}
-/* ----------- BC | E | GA headers ----------- */
-.exps div{
-  height: 100px;
-  padding: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.exps h2 {
-  color: white;
-  font-size: 3.5em;
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 700;
-}
-/* ----------- 2014 - 2020 years ----------- */
-.exps h3 {
-  color: white;
-  font-weight: 400;
-  font-size: 2em;
-  margin-left: 3%;
-}
-
 
 .largedesc{
-  font-size: 1.3em;
+  font-size: 1.4em;
   line-height: 1.5;
   font-family: 'Nunito Sans', sans-serif;
   padding: 30px;
@@ -184,7 +206,7 @@ footer div {
 .largedesc span {
   color:#ca1212;
 }
-/* ----------- ABOUT ME PROFILE PIC ----------- */
+
 .profile {
   /* border: 2px solid darkorchid; */
   /* grid-row: 1 / 2; */
@@ -192,21 +214,18 @@ footer div {
   background-color: white;
   text-align:center;
 }
-
 .profile .largedesc{
   padding: 0;
 }
 
 .profile h2 {
-  font-size: 2.2em;
+  font-size: 2.5em;
   font-family: 'Nanum Myeongjo', serif;
   font-weight: 700;
   margin-top: 10px;
-  line-height: 1.6;
 }
 
 .profile img{
-  max-width: 400px;
   width: 100%;
   height: 300px;
   object-fit: cover;
@@ -219,63 +238,45 @@ footer div {
 
 .gallery {
   margin-top:20px;
+  display: grid;
+  grid-template-rows:repeat(4, 1fr);
 }
 
-.gal-item{
-  background-color:white;
-  max-height: 700px;
-}
 .gal-item img{
   width: 100%;
-  height: 300px;
+  height: 400px;
   object-fit: cover;
 }
 
 /* *******************************************
 ****** CONTACT PAGE 
 ******************************************* */
-.contact {
-  margin-top: 57px;
-  padding-top: 20px;
-}
-.eform{
-  background-color: #e4e4e4;
-  padding: 2%;
-  font-family: 'Nunito Sans', sans-serif;
-  max-width: 750px;
-  height: 600px;
-}
-.icon-section {  
+.icon-section {
+  margin-top: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-gap: 5px;
-  padding:10px;
 }
 .icon-section h2{
   display: none;
-  
 }
+
 .contact-icon {
+  border: 1px solid palevioletred;
   text-align: center;
 }
 .icon-section .fas {
   font-size: 5em;
-}
-.fas.fa-phone {
-  color:#ca1212;
-}
-.fas.fa-envelope {
-  color:rgb(41, 105, 41);
-}
-/* *******************************************
-****** MOBILE MENU
-******************************************* */
-.menu {
-  display:none;
+
 }
 
+
+
+/* ---------------------- MOBILE MENU ---------------------- */
+
 .fixed-top {
+  /* display: none; */
   border-bottom: 1px solid gray;
   margin-bottom: 20px;
 }
@@ -288,156 +289,20 @@ footer div {
   height: 1.5em;
 }
 
-/* *******************************************
-****** TABLET VIEW 
-******************************************* */
-
-@media screen and (min-width: 768px) {
-  /*-------------- PROJECTS PAGE ----------- */
-  .project {
-    max-width: 768px;
-    margin: 0 auto;
-  }
-  .gallery {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-gap: 15px;
-  }
-/*-------------- CONTACT PAGE ----------- */
-.icon-section h2{
-  padding:5px;
-  display: block;
+/* ---------------------- DESKTOP MENU ---------------------- */
+nav {
+  font-size: 26px;
+  justify-content: flex-end;
 }
 
-
+.menu {
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: space-between;
+  display:none;
 }
-/* *******************************************
-****** DESKTOP VIEW 
-******************************************* */
-@media screen and (min-width: 1024px) {
-
-/*-------------- MENU ----------- */
-  .fixed-top {
-    display: none;
-  }
-
-  header {
-    border-bottom: 1px solid gray;
-    padding: 30px;
-    height: 100px;
-    background-color: white;
-  }
-
-  nav {
-    font-size: 26px;
-    justify-content: flex-end;
-  }
-
-  .menu {
-    max-width: 1440px;
-    margin:0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-  .menu ul {
-    display: flex;
-    width: 50%;
-    justify-content: space-around;
-  }
-/*--------------ABOUT MAIN CONTENT ----------- */
-  .about {
-    max-width: 1440px;
-    margin:0 auto;
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-  }
-  .profile {
-    padding: 20px;
-    text-align: center;
-    grid-column: 3 / 4;
-    margin-left: 10%;
-    height: 340px;
-  }
-  .profile img {
-    /* get rid of the 400px previously set by max width for mobile */
-    max-width: 100%; 
-    margin-bottom: 30px;
-  }
-  .experience {
-    grid-column: 1 / 3;
-    grid-row: 1 / 3;
-    grid-template-rows: 1fr 1fr 1fr;
-    padding: 3%;
-  }
-  .exps {
-    grid-row: 2 / 4;
-    display: flex;
-    grid-gap: 20px;
-  }
-
-  .exps article {
-    width:33%;
-  }
-
-  .exps div {
-    display: block;
-    padding:0;
-    height: 150px;
-  }
-  .exps h2 {
-    display:none;
-  }
-  .exps h3 {
-    display:block;
-    color:black;
-    text-align: center;
-    margin-bottom: 25px;
-  }
-
-  #college, #work, #boot {
-    background-color: white;
-  }
-
-  #college img, #work img, #boot img {
-    display: block;
-    width:40%;
-    height: 100px;
-    object-fit: cover;
-    margin-left: 30%;
-    margin-bottom: 25px;
-  }
-/*--------------PROJECTS MAIN CONTENT ----------- */
-
-  .project{
-    max-width: 1440px;
-    margin:0 auto;
-  }
-  .gallery {
-    display:grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-gap: 15px;
-  }
-/*--------------CONTACT PAGE ----------- */
-  .contact {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 50px 20px 0px 20px;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-gap: 10px;
-  }
-  .icon-section {  
-    display: block;
-  }
-  .contact-icon {
-    padding: 2%;
-  }
-
+.menu ul {
+  display: flex;
 }
 
 
@@ -468,7 +333,7 @@ footer div {
 #fs-frm label,
 #fs-frm legend,
 #fs-frm ::placeholder {
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin-bottom: .5rem;
   padding-top: .2rem;
   display: flex;
@@ -514,7 +379,7 @@ footer div {
 }
 #fs-frm [type="submit"],
 #fs-frm [type="reset"] {
-  margin: 0 auto;
+  margin-bottom: 0;
 }
 #fs-frm select {
   text-transform: none;
@@ -552,3 +417,15 @@ footer div {
 #fs-frm fieldset.locale select[name="state"] {
   margin-right: 3%;
 }
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About

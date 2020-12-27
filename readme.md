@@ -81,14 +81,14 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Hamburger | M | 1hr | 2hrs |
 | Regular Nav | M | 1hr | 1hr |  
 | Create Mobile Layout | M | 8hr | 6hrs -about me, 4hrs project, 1hr contact | 
-| Create Desktop Layout | M | 8hr | hr | 
+| Create Desktop Layout | M | 8hr | 3hr about, 2hr project, 2hr contact | 
 | Make a Form | H | 1hr|  .5hr | 
 | Connect Form | H | 3hr|  .5hr | 
 | Pull and display data for projects | H | 7hrs|  1.5hr | 
-| Enter data for credits| H | 2hrs|  hr | 
-| Pull/display data for credits| H | 5hrs|  hr | 
-| Responsive | H | 5hr | hr | hr |
-| Total | H | 40hrs| hrs |
+| Enter data for credits| H | 2hrs|  Cross from todo | 
+| Pull/display data for credits| H | 5hrs| Cross from todo | 
+| Responsive | H | 5hr | 7hr |
+| Total | H | 40hrs| 31.5hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
