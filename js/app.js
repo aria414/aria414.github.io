@@ -43,10 +43,19 @@ $.ajax('https://spreadsheets.google.com/feeds/list/1Rg_VD_Okxh90ARUonKDDmRD-5uNZ
         const $name = $("<h2>").attr("class", "lable").text(item.name)
         const $desc = $("<p>").attr("class", "largedesc").text(item.description)
 
+        //create a div to hold the buttons
+        const $div = $("<div>")
+        const $livebtn = $("<button>").attr("class", "code-btn").html(`<a href="${item.live}"  target="_blank">Live</a>`)
+        const $github = $("<button>").attr("class", "code-btn").html(`<a href="${item.github}"  target="_blank">Code</a>`)
+
+        $div.append($livebtn)
+        $div.append($github)
+        
         //Put the elements inside the section
         $section.append($img)
         $section.append($name)
         $section.append($desc)
+        $section.append($div)
 
         // const $live = item.live
         // const $git = item.github

@@ -38,22 +38,12 @@ body {
   font-family: var(--text);
   background-color: #E7E9EF;
 }
-.bgwhte{
-  background-color: white;
-  height: 870px;
-  margin-top: -5px;
-}
 
 /* *******************************************
 ****** PROJECT STYLES
 ******************************************* */
 
-.about {
-  /* display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(5, 1fr); */
-  margin: 0 auto;
-}
+
 
 /* *******************************************
 ****** GENERAL STYLES
@@ -116,6 +106,18 @@ footer div {
 /* *******************************************
 ****** ABOUT ME PAGE 
 ******************************************* */
+.about {
+  /* display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, 1fr); */
+  margin: 0 auto;
+}
+
+.bgwhte{
+  background-color: white;
+  height: 870px;
+  margin-top: -5px;
+}
 
 .experience {
   /* border: 1px solid red; */
@@ -125,6 +127,7 @@ footer div {
 }
 
 .lable {
+  font-family: 'Nanum Myeongjo', serif;
   font-size: 2.3em;
   margin: 10px 0 10px 0;
 }
@@ -179,6 +182,7 @@ footer div {
   font-size: 1.3em;
   line-height: 1.5;
   font-family: 'Nunito Sans', sans-serif;
+  font-weight: 300;
   padding: 30px;
 }
 .largedesc span {
@@ -216,19 +220,66 @@ footer div {
 /* *******************************************
 ****** PROJECTS PAGE 
 ******************************************* */
+.project{
+  margin: 80px 0 80px 0;
 
+}
 .gallery {
   margin-top:20px;
 }
 
 .gal-item{
   background-color:white;
-  max-height: 700px;
+  /* min-height: 800px; */
+  height: auto;
+  position: relative;
+  padding-bottom: 50px;
 }
+
+.gal-item h2 {
+  padding:4%;
+}
+
 .gal-item img{
   width: 100%;
   height: 300px;
   object-fit: cover;
+  box-shadow: 0px 2px 5px #cacaca;
+  margin-bottom: 3%;
+}
+
+.gallery div {
+  text-align: center;
+  padding-bottom: 15px;
+  height: 50px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 15px;
+
+}
+
+.gal-item button:first-child{
+  margin-right: 10px;
+}
+.gal-item button:nth-child(2){
+  margin-left: 10px;
+}
+
+.code-btn {
+  width: 100px;
+  height: 50px;
+  background-color: #e7e9ef;
+  font-size: 1.3em;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 300;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.code-btn a{
+  color: #334f63;
+  text-decoration: none;
 }
 
 /* *******************************************
@@ -297,7 +348,7 @@ footer div {
   /*-------------- PROJECTS PAGE ----------- */
   .project {
     max-width: 768px;
-    margin: 0 auto;
+    margin: 80px auto 80px auto;
   }
   .gallery {
     display: grid;
@@ -415,7 +466,7 @@ footer div {
 
   .project{
     max-width: 1440px;
-    margin:0 auto;
+    margin:0 auto 100px auto;
   }
   .gallery {
     display:grid;
@@ -553,3 +604,4 @@ footer div {
 #fs-frm fieldset.locale select[name="state"] {
   margin-right: 3%;
 }
+
