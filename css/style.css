@@ -275,11 +275,15 @@ footer div {
   border: 1px solid white;
   border-radius: 5px;
 }
-
 .code-btn a{
   color: #334f63;
   text-decoration: none;
 }
+.code-btn:hover {
+  background-color: #ffc3c3;
+}
+
+
 
 /* *******************************************
 ****** CONTACT PAGE 
@@ -402,6 +406,10 @@ footer div {
     display: flex;
     width: 50%;
     justify-content: space-around;
+  }
+
+  .menu li:hover {
+    color: #ca1212;
   }
 /*--------------ABOUT MAIN CONTENT ----------- */
   .about {
