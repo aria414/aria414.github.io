@@ -107,9 +107,6 @@ footer div {
 ****** ABOUT ME PAGE 
 ******************************************* */
 .about {
-  /* display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(5, 1fr); */
   margin: 0 auto;
 }
 
@@ -124,12 +121,13 @@ footer div {
   /* grid-row: 2 / 6; */
   display: grid;
   grid-template-rows: 1fr 3fr;
+  height: fit-content;
 }
 
 .lable {
   font-family: 'Nanum Myeongjo', serif;
   font-size: 2.3em;
-  margin: 10px 0 10px 0;
+  margin: 30px 0 10px 0;
 }
 
 .exps {
@@ -210,10 +208,11 @@ footer div {
 }
 
 .profile img{
-  max-width: 400px;
-  width: 100%;
+  /* max-width: 400px;
   height: 300px;
-  object-fit: cover;
+  object-fit: cover; */
+  width: 100%;
+  margin-top: 50px;
 }
 
 
@@ -345,11 +344,17 @@ footer div {
 ******************************************* */
 
 @media screen and (min-width: 768px) {
+  .profile img{
+    width: 60%;
+    margin-top: 50px;
+  }
+
   /*-------------- PROJECTS PAGE ----------- */
   .project {
     max-width: 768px;
     margin: 80px auto 80px auto;
   }
+  
   .gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -361,7 +366,6 @@ footer div {
   padding:5px;
   display: block;
 }
-
 
 }
 /* *******************************************
@@ -405,19 +409,23 @@ footer div {
     margin:0 auto;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
   }
   .profile {
     padding: 20px;
     text-align: center;
     grid-column: 3 / 4;
     margin-left: 10%;
-    height: 340px;
+    background-color:#e7e9ef;
   }
   .profile img {
-    /* get rid of the 400px previously set by max width for mobile */
-    max-width: 100%; 
-    margin-bottom: 30px;
+    width: 100%; 
+    margin-top: 0;
+    background-color: white;
+    padding: 10px;
+  }
+
+  .lable {
+    margin-top: 10px;
   }
   .experience {
     grid-column: 1 / 3;
@@ -463,7 +471,6 @@ footer div {
     margin-bottom: 25px;
   }
 /*--------------PROJECTS MAIN CONTENT ----------- */
-
   .project{
     max-width: 1440px;
     margin:0 auto 100px auto;
