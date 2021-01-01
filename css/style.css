@@ -275,12 +275,19 @@ footer div {
   border: 1px solid white;
   border-radius: 5px;
 }
+
+.code-btn a:hover{
+  color: white;
+}
+
 .code-btn a{
   color: #334f63;
   text-decoration: none;
+  padding: 13px 27px;
 }
 .code-btn:hover {
-  background-color: #ffc3c3;
+  background-color: #242424;
+  color: white;
 }
 
 
