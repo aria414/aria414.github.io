@@ -1,9 +1,8 @@
 /* *******************************************
 ****** PROJECT SETUP
 ******************************************* */
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap");
 
 /* VARIABLES */
 :root {
@@ -36,31 +35,29 @@ h6 {
 
 body {
   font-family: var(--text);
-  background-color: #E7E9EF;
+  background-color: #e7e9ef;
 }
 
 /* *******************************************
 ****** PROJECT STYLES
 ******************************************* */
 
-
-
 /* *******************************************
 ****** GENERAL STYLES
 ******************************************* */
-.fab{
+.fab {
   font-size: 1.6em;
   justify-content: space-between;
 }
 .fab.fa-linkedin,
 .fab.fa-github-square {
-  color:#0477B5;
-  padding:5px;
+  color: #0477b5;
+  padding: 5px;
   font-size: 2em;
 }
 h1 {
-  font-size: 1.8em;  
-  font-family: 'Nanum Myeongjo', serif;
+  font-size: 1.8em;
+  font-family: "Nanum Myeongjo", serif;
 }
 h2 {
   font-size: 1.5em;
@@ -77,7 +74,7 @@ header a:hover {
 .slate-text {
   color: #334f63;
   font-size: 1.3em;
-  font-family: 'Nanum Myeongjo', serif;
+  font-family: "Nanum Myeongjo", serif;
   text-align: center;
   line-height: 1.5;
 }
@@ -110,8 +107,8 @@ footer div {
   margin: 0 auto;
 }
 
-.bgwhte{
-  background-color: white;
+.bgwhte {
+  /* background-color: white; */
   height: 870px;
   margin-top: -5px;
 }
@@ -125,7 +122,7 @@ footer div {
 }
 
 .lable {
-  font-family: 'Nanum Myeongjo', serif;
+  font-family: "Nanum Myeongjo", serif;
   font-size: 2.3em;
   margin: 30px 0 10px 0;
 }
@@ -134,6 +131,7 @@ footer div {
   /* border: 1px solid green; */
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
+  margin-bottom: 15%;
 }
 .exps article {
   background-color: white;
@@ -141,19 +139,21 @@ footer div {
 
 /* -------------- EXPERIENCES  ------------- */
 #college {
-  background-color:maroon;
+  background-color: maroon;
 }
 #work {
-  background-color: #045EAA;
+  background-color: #045eaa;
 }
 #boot {
-  background-color: #FA4543;
+  background-color: #fa4543;
 }
-#college img, #work img, #boot img {
+#college img,
+#work img,
+#boot img {
   display: none;
 }
 /* ----------- BC | E | GA headers ----------- */
-.exps div{
+.exps div {
   height: 100px;
   padding: 15px;
   display: flex;
@@ -164,7 +164,7 @@ footer div {
 .exps h2 {
   color: white;
   font-size: 3.5em;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-weight: 700;
 }
 /* ----------- 2014 - 2020 years ----------- */
@@ -175,16 +175,15 @@ footer div {
   margin-left: 3%;
 }
 
-
-.largedesc{
-  font-size: 1.3em;
+.largedesc {
+  font-size: 1.2em;
   line-height: 1.5;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-weight: 300;
   padding: 30px;
 }
 .largedesc span {
-  color:#ca1212;
+  color: #ca1212;
 }
 /* ----------- ABOUT ME PROFILE PIC ----------- */
 .profile {
@@ -192,22 +191,22 @@ footer div {
   /* grid-row: 1 / 2; */
   padding: 20px;
   background-color: white;
-  text-align:center;
+  text-align: center;
 }
 
-.profile .largedesc{
+.profile .largedesc {
   padding: 0;
 }
 
 .profile h2 {
   font-size: 2.2em;
-  font-family: 'Nanum Myeongjo', serif;
+  font-family: "Nanum Myeongjo", serif;
   font-weight: 700;
   margin-top: 10px;
   line-height: 1.6;
 }
 
-.profile img{
+.profile img {
   /* max-width: 400px;
   height: 300px;
   object-fit: cover; */
@@ -215,20 +214,18 @@ footer div {
   margin-top: 50px;
 }
 
-
 /* *******************************************
 ****** PROJECTS PAGE 
 ******************************************* */
-.project{
+.project {
   margin: 80px 0 80px 0;
-
 }
 .gallery {
-  margin-top:20px;
+  margin-top: 20px;
 }
 
-.gal-item{
-  background-color:white;
+.gal-item {
+  background-color: white;
   /* min-height: 800px; */
   height: auto;
   position: relative;
@@ -236,10 +233,10 @@ footer div {
 }
 
 .gal-item h2 {
-  padding:4%;
+  padding: 4%;
 }
 
-.gal-item img{
+.gal-item img {
   width: 100%;
   height: 300px;
   object-fit: cover;
@@ -255,13 +252,12 @@ footer div {
   left: 0;
   right: 0;
   bottom: 15px;
-
 }
 
-.gal-item button:first-child{
+.gal-item button:first-child {
   margin-right: 10px;
 }
-.gal-item button:nth-child(2){
+.gal-item button:nth-child(2) {
   margin-left: 10px;
 }
 
@@ -270,17 +266,17 @@ footer div {
   height: 50px;
   background-color: #e7e9ef;
   font-size: 1.3em;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-weight: 300;
   border: 1px solid white;
   border-radius: 5px;
 }
 
-.code-btn a:hover{
+.code-btn a:hover {
   color: white;
 }
 
-.code-btn a{
+.code-btn a {
   color: #334f63;
   text-decoration: none;
   padding: 13px 27px;
@@ -290,8 +286,6 @@ footer div {
   color: white;
 }
 
-
-
 /* *******************************************
 ****** CONTACT PAGE 
 ******************************************* */
@@ -299,23 +293,25 @@ footer div {
   margin-top: 57px;
   padding-top: 20px;
 }
-.eform{
-  background-color: #e4e4e4;
-  padding: 2%;
-  font-family: 'Nunito Sans', sans-serif;
+.eform {
+  background-color: rgba(255, 255, 255, 0);
+  padding: 4%;
+  /* font-family: "Nunito Sans", sans-serif; */
+  font-family: "Nanum Myeongjo", serif;
   max-width: 750px;
   height: 600px;
+  font-size: 1.3em;
+  border-radius: 10px;
 }
-.icon-section {  
+.icon-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-gap: 5px;
-  padding:10px;
+  padding: 10px;
 }
-.icon-section h2{
+.icon-section h2 {
   display: none;
-  
 }
 .contact-icon {
   text-align: center;
@@ -330,11 +326,27 @@ footer div {
   color: #00a08b;
 }
 
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #77859e;
+  opacity: 0.6; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #77859e;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #77859e;
+}
+
 /* *******************************************
 ****** MOBILE MENU
 ******************************************* */
 .menu {
-  display:none;
+  display: none;
 }
 
 .fixed-top {
@@ -342,7 +354,7 @@ footer div {
   margin-bottom: 20px;
 }
 .bg-light {
-  background-color:white!important;
+  background-color: white !important;
 }
 
 .navbar-toggler-icon {
@@ -355,7 +367,7 @@ footer div {
 ******************************************* */
 
 @media screen and (min-width: 768px) {
-  .profile img{
+  .profile img {
     width: 60%;
     margin-top: 50px;
   }
@@ -365,26 +377,24 @@ footer div {
     max-width: 768px;
     margin: 80px auto 80px auto;
   }
-  
+
   .gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 15px;
   }
-/*-------------- CONTACT PAGE ----------- */
-.icon-section h2{
-  padding:5px;
-  display: block;
-}
-
+  /*-------------- CONTACT PAGE ----------- */
+  .icon-section h2 {
+    padding: 5px;
+    display: block;
+  }
 }
 /* *******************************************
 ****** DESKTOP VIEW 
 ******************************************* */
 @media screen and (min-width: 1024px) {
-
-/*-------------- MENU ----------- */
+  /*-------------- MENU ----------- */
   .fixed-top {
     display: none;
   }
@@ -403,11 +413,11 @@ footer div {
 
   .menu {
     max-width: 1440px;
-    margin:0 auto;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+  }
 
   .menu ul {
     display: flex;
@@ -418,11 +428,11 @@ footer div {
   .menu li:hover {
     color: #ca1212;
   }
-/*--------------ABOUT MAIN CONTENT ----------- */
+  /*--------------ABOUT MAIN CONTENT ----------- */
   .about {
     max-width: 1440px;
-    margin:0 auto;
-    display:grid;
+    margin: 0 auto;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
   .profile {
@@ -430,10 +440,10 @@ footer div {
     text-align: center;
     grid-column: 3 / 4;
     margin-left: 10%;
-    background-color:#e7e9ef;
+    background-color: #e7e9ef;
   }
   .profile img {
-    width: 100%; 
+    width: 100%;
     margin-top: 0;
     background-color: white;
     padding: 10px;
@@ -455,48 +465,52 @@ footer div {
   }
 
   .exps article {
-    width:33%;
+    width: 33%;
   }
 
   .exps div {
     display: block;
-    padding:0;
+    padding: 0;
     height: 150px;
   }
   .exps h2 {
-    display:none;
+    display: none;
   }
   .exps h3 {
-    display:block;
-    color:black;
+    display: block;
+    color: black;
     text-align: center;
     margin-bottom: 25px;
   }
 
-  #college, #work, #boot {
+  #college,
+  #work,
+  #boot {
     background-color: white;
   }
 
-  #college img, #work img, #boot img {
+  #college img,
+  #work img,
+  #boot img {
     display: block;
-    width:40%;
+    width: 40%;
     height: 100px;
     object-fit: cover;
     margin-left: 30%;
     margin-bottom: 25px;
   }
-/*--------------PROJECTS MAIN CONTENT ----------- */
-  .project{
+  /*--------------PROJECTS MAIN CONTENT ----------- */
+  .project {
     max-width: 1440px;
-    margin:0 auto 100px auto;
+    margin: 0 auto 100px auto;
   }
   .gallery {
-    display:grid;
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 15px;
   }
-/*--------------CONTACT PAGE ----------- */
+  /*--------------CONTACT PAGE ----------- */
   .contact {
     max-width: 1440px;
     margin: 0 auto;
@@ -505,20 +519,17 @@ footer div {
     grid-template-columns: 1fr 2fr;
     grid-gap: 10px;
   }
-  .icon-section {  
+  .icon-section {
     display: block;
   }
   .contact-icon {
     padding: 2%;
   }
-
 }
-
 
 /* *******************************************
 ****** FORMS SPREE STYLE
 ******************************************* */
-
 
 #fs-frm input,
 #fs-frm select,
@@ -543,8 +554,8 @@ footer div {
 #fs-frm legend,
 #fs-frm ::placeholder {
   font-size: 1.1rem;
-  margin-bottom: .5rem;
-  padding-top: .2rem;
+  margin-bottom: 0.5rem;
+  padding-top: 0.2rem;
   display: flex;
   align-items: baseline;
 }
@@ -554,10 +565,11 @@ footer div {
 #fs-frm select,
 #fs-frm textarea,
 #fs-frm #card-element {
-  border: 1px solid rgba(0,0,0,0.2);
-  background-color: rgba(255,255,255,0.9);
-  padding: .75em 1rem;
-  margin-bottom: 1.5rem;
+  border: 2px solid #d1d4d8;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 0.75em 1rem;
+  margin-bottom: 5%;
+  border-radius: 6px;
 }
 #fs-frm input:focus,
 #fs-frm select:focus,
@@ -600,7 +612,7 @@ footer div {
   appearance: checkbox;
   display: inline-block;
   width: auto;
-  margin: 0 .5em 0 0 !important;
+  margin: 0 0.5em 0 0 !important;
 }
 
 #fs-frm [type="radio"] {
@@ -626,4 +638,3 @@ footer div {
 #fs-frm fieldset.locale select[name="state"] {
   margin-right: 3%;
 }
-
