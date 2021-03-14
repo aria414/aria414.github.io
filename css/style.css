@@ -108,14 +108,11 @@ footer div {
 }
 
 .bgwhte {
-  /* background-color: white; */
   height: 870px;
   margin-top: -5px;
 }
 
 .experience {
-  /* border: 1px solid red; */
-  /* grid-row: 2 / 6; */
   display: grid;
   grid-template-rows: 1fr 3fr;
   height: fit-content;
@@ -124,11 +121,10 @@ footer div {
 .lable {
   font-family: "Nanum Myeongjo", serif;
   font-size: 2.3em;
-  margin: 30px 0 10px 0;
+  margin: 2% 0;
 }
 
 .exps {
-  /* border: 1px solid green; */
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   margin-bottom: 15%;
@@ -187,8 +183,6 @@ footer div {
 }
 /* ----------- ABOUT ME PROFILE PIC ----------- */
 .profile {
-  /* border: 2px solid darkorchid; */
-  /* grid-row: 1 / 2; */
   padding: 20px;
   background-color: white;
   text-align: center;
@@ -226,14 +220,14 @@ footer div {
 
 .gal-item {
   background-color: white;
-  /* min-height: 800px; */
   height: auto;
   position: relative;
   padding-bottom: 50px;
+  margin-bottom: 5%;
 }
 
 .gal-item h2 {
-  padding: 4%;
+  padding: 2%;
 }
 
 .gal-item img {
@@ -242,6 +236,7 @@ footer div {
   object-fit: cover;
   box-shadow: 0px 2px 5px #cacaca;
   margin-bottom: 3%;
+  object-position: 50% 0%;
 }
 
 .gallery div {
@@ -378,6 +373,10 @@ footer div {
     margin: 80px auto 80px auto;
   }
 
+  .gal-item {
+    margin-bottom: 0;
+  }
+
   .gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -508,7 +507,7 @@ footer div {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-gap: 15px;
+    grid-gap: 20px;
   }
   /*--------------CONTACT PAGE ----------- */
   .contact {
