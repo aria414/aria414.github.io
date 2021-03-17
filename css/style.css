@@ -279,6 +279,7 @@ footer div {
 .code-btn:hover {
   background-color: #242424;
   color: white;
+  transition: 0.3s;
 }
 
 /* *******************************************
